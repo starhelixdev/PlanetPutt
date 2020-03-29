@@ -1,0 +1,41 @@
+{
+  "name": "planetputt",
+  "version": "1.0.0",
+  "description": "Golf game using React for the UI and Phaser for the game engine.",
+  "main": "index.js",
+  "dependencies": {
+    "phaser": "^3.22.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.15",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-redux": "^7.1.5",
+    "@types/styled-components": "^4.4.0",
+    "@types/webpack": "^4.39.8",
+    "@types/webpack-dev-server": "^3.4.0",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2",
+    "typescript-collections": "^1.3.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.config.dev.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starhelixdev/PlanetPutt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starhelixdev/planetputt/issues"
+  },
+  "homepage": "https://github.com/starhelixdev/planetputt#readme"
+}
